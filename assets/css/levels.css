@@ -209,6 +209,7 @@ h1, h2, h3, h4, p, li, strong {
 
 .lvl-tickets-button--hero {
     padding: 15px 45px;
+    margin-top: 10px;
 }
 
 .lvl-tickets-button:hover, .lvl-tickets-button--hero:hover {
