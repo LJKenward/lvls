@@ -60,8 +60,9 @@ h1, h2, h3, h4, p, li, strong {
     max-width: 350px;
 }
 
-.lvl-hero--text h1 {
+.lvl-hero--text h1, .lvl-hero--text h2 {
     color: white;
+    margin: 0;
 }
 
 .lvl-hero--logo {
