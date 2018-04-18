@@ -155,14 +155,22 @@ h1, h2, h3, h4, p, li, strong {
     margin: -1px;
 }
 
-.lvl-sponsor-container {
-    padding: 20px;
-    max-width: 400px;
-    margin: 0 auto;
+.lvl-sponsor-xero {
+    display: inline-block;
+    max-width: 200px;
+    margin: 20px;
 }
 
-.lvl-sponsor-exabyte {
-    max-height: 300px;
+.lvl-sponsor-rea {
+    display: inline-block;
+    max-width: 500px;
+    margin: 20px;
+}
+
+.lvl-sponsor-community {
+    display: inline-block;
+    max-width: 360px;
+    margin: 20px;
 }
 
 .lvl-contact-container {
