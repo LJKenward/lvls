@@ -179,6 +179,15 @@ h1, h2, h3, h4, p, li, strong {
     margin: 20px;
 }
 
+.lvl-speakers-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.lvl-speakers-container .lvl-side-by-side--container {
+    margin-bottom: 50px;
+}
+
 .lvl-contact-container {
     display: flex;
     justify-content: space-between;
@@ -305,7 +314,15 @@ h1, h2, h3, h4, p, li, strong {
     }
 
     .lvl-side-by-side--container {
-        display: inline-block;
+        flex-direction: column;
+    }
+
+    .lvl-side-by-side--second {
+        order: 2;
+    }
+
+    .lvl-side-by-side--first {
+        order: 1;
     }
 
     .lvl-side-by-side--emoji {
