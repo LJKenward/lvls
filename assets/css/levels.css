@@ -173,6 +173,10 @@ h1, h2, h3, h4, p, li, strong {
     margin: 20px;
 }
 
+.lvl-sponsor--terabyte-long.launch-vic {
+    max-width: 500px;
+}
+
 .lvl-sponsor-community {
     display: inline-block;
     max-width: 360px;
