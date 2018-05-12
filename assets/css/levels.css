@@ -76,6 +76,11 @@ h1, h2, h3, h4, p, li, strong {
     align-items: center;
 }
 
+.lvl-speaker-bio-container {
+    display: flex;
+    margin-bottom: 65px;
+}
+
 .lvl-diversity-section {
     background-color: #f4f5f7;
 }
@@ -190,10 +195,6 @@ h1, h2, h3, h4, p, li, strong {
 .lvl-speakers-container {
     display: flex;
     flex-direction: column;
-}
-
-.lvl-speakers-container .lvl-side-by-side--container {
-    margin-bottom: 50px;
 }
 
 .lvl-contact-container {
@@ -322,6 +323,10 @@ h1, h2, h3, h4, p, li, strong {
     }
 
     .lvl-side-by-side--container {
+        flex-direction: column;
+    }
+
+    .lvl-speaker-bio-container {
         flex-direction: column;
     }
 
