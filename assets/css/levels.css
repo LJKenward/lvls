@@ -76,6 +76,11 @@ h1, h2, h3, h4, p, li, strong {
     align-items: center;
 }
 
+.lvl-speaker-bio-container {
+    display: flex;
+    margin-bottom: 65px;
+}
+
 .lvl-diversity-section {
     background-color: #f4f5f7;
 }
@@ -185,6 +190,11 @@ h1, h2, h3, h4, p, li, strong {
     display: inline-block;
     max-width: 360px;
     margin: 20px;
+}
+
+.lvl-speakers-container {
+    display: flex;
+    flex-direction: column;
 }
 
 .lvl-contact-container {
@@ -313,7 +323,19 @@ h1, h2, h3, h4, p, li, strong {
     }
 
     .lvl-side-by-side--container {
-        display: inline-block;
+        flex-direction: column;
+    }
+
+    .lvl-speaker-bio-container {
+        flex-direction: column;
+    }
+
+    .lvl-side-by-side--second {
+        order: 2;
+    }
+
+    .lvl-side-by-side--first {
+        order: 1;
     }
 
     .lvl-side-by-side--emoji {
