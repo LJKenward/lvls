@@ -179,6 +179,12 @@ h1, h2, h3, h4, p, li, strong {
     margin: 20px;
 }
 
+.lvl-sponsor--culture-amp {    
+    display: inline-block;
+    max-width: 450px;
+    margin: 20px;
+}
+
 .lvl-sponsor--terabyte-long.extra-padding {
     max-width: 500px;
 }
