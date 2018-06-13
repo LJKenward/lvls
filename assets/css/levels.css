@@ -197,6 +197,10 @@ h1, h2, h3, h4, p, li, strong {
     height: 200px;
 }
 
+.lvl-sponsor--aws {
+    height: 160px;
+}
+
 .lvl-sponsor-community {
     display: inline-block;
     max-width: 360px;
