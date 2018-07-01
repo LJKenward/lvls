@@ -11,6 +11,32 @@ h1, h2, h3, h4, p, li, strong {
     color: #011126;
 }
 
+tr td:first-child, .lvl-agenda--row {
+    padding: 10px;
+}
+
+tr {
+    border-bottom: 2px solid #011126;
+}
+
+.lvl-agenda--highlight {
+    background-color: #f4f5f7;
+}
+
+.lvl-agenda--party {
+    background: #59C173;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #9a27af, #FFD832, #66EFAC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #9a27af, #FFD832, #66EFAC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.lvl-agenda--party h3 {
+    color: white;
+}
+
+td h3 a {
+    color: #9a27af;
+}
+
 .lvl-color-black-pearl {
     color: #011126;
 }
