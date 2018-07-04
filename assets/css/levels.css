@@ -205,6 +205,10 @@ td h3 a {
     margin: 20px;
 }
 
+.lvl-sponsor--99designs {
+    max-width: 250px;
+}
+
 .lvl-sponsor--culture-amp {    
     display: inline-block;
     max-width: 450px;
